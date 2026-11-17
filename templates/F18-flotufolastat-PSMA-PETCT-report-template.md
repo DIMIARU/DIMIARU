@@ -1,79 +1,78 @@
 # ¹⁸F-Flotufolastat (rhPSMA-7.3) PSMA PET/CT 판독 템플릿
 
 - 기준 틀: **PROMISE V2 (miTNM, miPSMA score)** + **PSMA-RADS 2.0** (병변 단위)
-- 사용법: 아래 `[ ]` 부분을 선택/기입, 해당 없는 줄은 삭제. 영문 본문은 RIS에 그대로 붙여넣기용.
+- 사용법: 아래 `[ ]` 부분을 선택/기입, 해당 없는 줄은 삭제. 영문 본문은 RIS에 그대로 붙여넣기용. 형식은 기존 FDG 판독문(Image findings → [Conclusion])과 동일.
 - ⚠️ 표시는 원내 합의가 필요한 항목.
 
 ---
 
-## A. 판독 본문 (RIS 붙여넣기용)
+## A. 판독 본문 (RIS 붙여넣기용 — 기존 FDG 판독문 스타일)
+
+### A-1. 템플릿
 
 ```
-EXAMINATION: F-18 Flotufolastat (rhPSMA-7.3) PSMA PET/CT, skull base(or vertex) to mid-thigh
+F-18 Flotufolastat (rhPSMA-7.3) PSMA PET/CT, skull base to mid thigh
 
-CLINICAL INFORMATION
- - Indication: [Initial staging (suspected metastasis, candidate for definitive therapy)
-               / Suspected recurrence (biochemical recurrence)
-               / Restaging, mCRPC / PSMA-RLT eligibility / Other: ]
- - PSA: [  ] ng/mL ([YYYY-MM-DD]),  PSA doubling time: [  ] months (if known)
- - Pathology: ISUP grade group [ ] (Gleason [ + ]), cT[ ], biopsy date [ ]
- - Prior treatment: [None / RP (date) / RT (site, date) / ADT (start date) / ARPI / chemo / Lu-PSMA]
- - Prior imaging for comparison: [MRI prostate (PI-RADS ) / bone scan / CT / previous PSMA PET (date, tracer)]
+Clinical information:
+   [Initial staging / Biochemical recurrence / Restaging]
+   PSA [  ] ng/mL ([date]), ISUP grade group [ ], prior Tx: [RP / RT / ADT (start date)]
 
-TECHNIQUE
- - F-18 flotufolastat [  ] MBq ([  ] mCi) IV. Uptake time [  ] min.
- - Furosemide [not given / 20 mg IV with tracer]. Voided immediately before scan [yes/no].
- - Low-dose CT for attenuation correction and anatomic localization [/ contrast-enhanced CT].
- - Serum glucose / fasting: not required for interpretation.
- - Reference uptake: Blood pool SUVmean [ ], Liver SUVmean [ ], Parotid SUVmean [ ]
- - Image quality: [adequate / limited by ( motion / urinary activity / metal artifact )]
- - Urinary bladder activity: [0 = none/minimal / 1 = visible, separable from disease / 2 = limits assessment]
+Technique:
+   F-18 flotufolastat [  ] mCi IV, uptake [  ] min, furosemide [not given / 20 mg IV]
+   Reference: blood pool SUVmean [ ], liver SUVmean [ ], parotid SUVmean [ ]
+   Urinary bladder activity: [0 / 1 / 2]
 
-FINDINGS
+Image findings:
+   Compared with the previous PSMA PET/CT of [date]. ([없으면 삭제])
 
- 1. Prostate / prostate bed (miT)
-   - [No abnormal PSMA uptake in the prostate (bed).]
-   - [Focal PSMA uptake in the (right/left) (base/mid/apex) (PZ/TZ) of the prostate,
-      SUVmax [ ], miPSMA score [ ].]
-   - Extraprostatic extension: [not evident / suspected (seminal vesicle / bladder neck / rectum / pelvic wall)]
-   - (Post-RP) Prostate bed / vesicourethral anastomosis: [no recurrence / local recurrence ( ), SUVmax [ ]]
+   1. Prostate (bed): [right/left] [base/mid/apex] [PZ/TZ]에 focal PSMA uptake (SUVmax [ ] <- [ ]), miPSMA score [ ].
+      [Seminal vesicle / bladder neck 침범 소견 (있음/없음).]
+   2. Pelvic LNs: [right/left] [internal iliac / external iliac / obturator / common iliac / presacral] area에
+      PSMA-avid lymph node(s) (short axis [ ] mm, SUVmax [ ]), miPSMA score [ ].
+   3. Extrapelvic LNs: [retroperitoneal / supradiaphragmatic] area에 PSMA-avid lymph node(s) (SUVmax [ ]).
+   4. Bone: [site]에 PSMA-avid [sclerotic / lytic / no CT correlate] lesion(s) (SUVmax [ ]), miPSMA score [ ].
+      Pattern: [unifocal / oligometastatic (≤3) / disseminated / diffuse marrow]
+   5. Visceral organs: [lung / liver / other]에 PSMA-avid lesion(s) (SUVmax [ ]).
+   6. Others: [celiac/stellate ganglia uptake / healing rib fracture / incidental finding ...]
 
- 2. Pelvic lymph nodes (miN)
-   - [No PSMA-avid pelvic lymph node.]
-   - [PSMA-avid lymph node(s): (internal iliac / external iliac / obturator / common iliac /
-      presacral / other pelvic ), largest [ ] mm (short axis), SUVmax [ ], miPSMA score [ ].]
+   Otherwise, no abnormal PSMA uptake.
 
- 3. Extrapelvic lymph nodes (miM1a)
-   - [None. / Retroperitoneal / supradiaphragmatic / other: size [ ] mm, SUVmax [ ], miPSMA [ ]]
-
- 4. Bone (miM1b)
-   - [No PSMA-avid bone lesion.]
-   - [PSMA-avid bone lesion(s): (sites), CT correlate (sclerotic / lytic / mixed / no correlate),
-      SUVmax [ ], miPSMA [ ]. Pattern: (unifocal / oligometastatic ≤3 / disseminated / diffuse marrow)]
-
- 5. Visceral organs (miM1c)
-   - [None. / Lung / liver / brain / adrenal / other: ]
-
- 6. Other findings (non-prostate)
-   - [Physiologic uptake in salivary/lacrimal glands, liver, spleen, kidneys, bowel, and urinary tract.]
-   - [Probable benign PSMA uptake: ( ganglia - celiac/stellate/sacral / healing fracture /
-      degenerative change / fibrous dysplasia / Paget / hemangioma ), see table PSMA-RADS.]
-   - [Incidental non-prostatic PSMA-avid lesion: ( ) — further evaluation recommended.]
-   - [Relevant CT findings: ]
-
-LESION TABLE (target / representative lesions)
- #  | Location        | Size (mm) | SUVmax | miPSMA | CT correlate | PSMA-RADS
- 1  |                 |           |        |        |              |
- 2  |                 |           |        |        |              |
-
-CONCLUSION
- 1. [No PSMA-avid lesion to suggest prostate cancer. /
-     PSMA-avid lesion(s) consistent with prostate cancer involving ( ).]
- 2. PROMISE V2 molecular imaging stage: miT[ ] N[ ] M[ ]  (miM1b: [uni/oligo/diss/diffuse])
- 3. PSMA expression (highest): miPSMA score [ ]  [/ PSMA-negative disease suspected at ( )]
- 4. Indeterminate finding(s): [ ( ), PSMA-RADS [3A/3B/3C/3D] — recommend ( MRI / follow-up PSMA PET / biopsy )]
- 5. Compared with [prior study, date]: [new / increased / decreased / stable]
+[Conclusion]
+No significant interval change, compared with the previous PSMA PET/CT of [date]
+      1. Focal PSMA-avid lesion in the [right/left] [base/mid/apex] of the prostate (miPSMA score [ ])
+            - Suggestive of primary prostate cancer
+      2. PSMA-avid lymph nodes in the [right] [internal iliac] area
+            - Suggestive of pelvic lymph node metastases
+      3. Newly developed PSMA-avid lymph node in the [left para-aortic] area
+            - Distant lymph node metastasis should be considered
+      4. Faint PSMA uptake in the [right 6th rib] without CT correlate
+            - Bone metastasis cannot be excluded (PSMA-RADS 3B)
+      5. Mild PSMA uptake in the bilateral celiac ganglia
+      6. Molecular imaging stage (PROMISE V2): miT[ ] N[ ] M[ ]
 ```
+
+### A-2. 스타일 규칙 (FDG 판독문과 동일하게 적용)
+
+| 규칙 | 내용 |
+|---|---|
+| 첫 줄 | 이전 검사가 있을 때만 번호 없이 변화 요약 1줄. 예: `No significant interval change, compared with the previous PSMA PET/CT of [date]` |
+| 번호 순서 | Image findings의 순서 그대로 (중증도 순으로 재배열하지 않음) |
+| 번호 본문 | 짧은 명사구 (위치 + 소견). FDG의 `hypermetabolic` 대신 **`PSMA-avid`** 사용 |
+| 하위 줄 `- ` | 해석이 필요할 때만. 안정적/생리적 소견은 하위 줄 없이 끝냄 (예: 5번) |
+| 새 병변 | 본문에 `Newly developed ...`로 직접 표기 |
+| 수치 변화 | `(SUVmax 12.4 <- 8.1)` |
+| 확신도 표현 | ~로 생각됨 → `Suggestive of` / 가능성 있음 → `should be considered` / 배제할 수 없음 → `cannot be excluded` / 알려진 질환에 의한 → `consistent with` / 애매함 → `suspicious for` |
+| 단·복수 | 한 부위 `area`, 두 부위 이상 `areas` / `lymph node metastases` |
+
+### A-3. 확신도 ↔ PSMA-RADS 대응 (권장안, 원내 합의 필요 ⚠️)
+
+| PSMA-RADS | 결론 하위 줄 표현 |
+|---|---|
+| 5 | `Consistent with ...` / `Suggestive of ...` |
+| 4 | `Suggestive of ...` |
+| 3A–3D | `... should be considered` 또는 `... cannot be excluded` |
+| 2 | `Probably benign (e.g., ...)` 또는 하위 줄 생략 |
+| 1 | 하위 줄 없음 또는 결론에서 제외 |
 
 ---
 
