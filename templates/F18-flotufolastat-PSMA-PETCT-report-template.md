@@ -18,7 +18,7 @@ Clinical information:
    PSA [  ] ng/mL ([date]), ISUP grade group [ ], prior Tx: [RP / RT / ADT (start date)]
 
 Technique:
-   F-18 flotufolastat [  ] mCi IV, uptake [  ] min, furosemide [not given / 20 mg IV]
+   F-18 flotufolastat [  ] mCi IV, uptake [  ] min, furosemide [not given / 20 mg IV at (hh:mm), (  ) min (before/after) tracer]
    Reference: blood pool SUVmean [ ], liver SUVmean [ ], parotid SUVmean [ ]
    Urinary bladder activity: [0 / 1 / 2]
 
@@ -135,7 +135,7 @@ No significant interval change, compared with the previous PSMA PET/CT of [date]
 ## C. 원내 결정 필요 항목 (도입 전 체크리스트)
 
 - [ ] 투여량 (3상 연구: 296 MBq = 8 mCi) 및 uptake time (3상 연구: 50–70분)
-- [ ] Furosemide 루틴 사용 여부
+- [ ] Furosemide 루틴 사용 여부 (EANM/SNMMI 2023: 20 mg IV, 추적자 투여 직전 또는 직후; 투여 시각 기록 필요. 금기: 요실금, 요로폐색, 과민반응)
 - [ ] 촬영 범위 (vertex vs skull base ~ mid-thigh)
 - [ ] 병변 판정 체계: PSMA-RADS 2.0 vs E-PSMA 중 택일 (현재 템플릿: PSMA-RADS 2.0)
 - [ ] 결론부 miTNM 필수 기재 여부 (비뇨기과/방사선종양학과와 합의)
